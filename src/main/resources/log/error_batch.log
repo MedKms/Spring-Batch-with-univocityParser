@@ -1,0 +1,2 @@
+2022-03-14 11:44:07,436 ERROR com.example.springbatchunivocity.services.readFilesService.readFilesServiceImpl.ReaderCsv [restartedMain] Error converting value 'sdfsdf' using conversion com.univocity.parsers.conversions.DoubleConversion
+Internal state when error was thrown: line=9, column=0, record=8, charIndex=431, headers=[student_id, student_firstName, student_lastName, student_email, student_age], row=[8, Anwar, Berrada, anwar.berrada@gmail.com, sdfsdf], value=sdfsdf, columnName=student_age, columnIndex=4

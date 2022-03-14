@@ -1,0 +1,6 @@
+2022-03-14 11:44:04,557 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting SpringbatchunivocityApplication using Java 1.8.0_202 on MohamedKEMMOUS with PID 15424 (C:\github\springbatchunivocity\target\classes started by delle in C:\github\springbatchunivocity)
+2022-03-14 11:44:04,559 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.6.4, Spring v5.3.16
+2022-03-14 11:44:04,560 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-03-14 11:44:07,436 ERROR com.example.springbatchunivocity.services.readFilesService.readFilesServiceImpl.ReaderCsv [restartedMain] Error converting value 'sdfsdf' using conversion com.univocity.parsers.conversions.DoubleConversion
+Internal state when error was thrown: line=9, column=0, record=8, charIndex=431, headers=[student_id, student_firstName, student_lastName, student_email, student_age], row=[8, Anwar, Berrada, anwar.berrada@gmail.com, sdfsdf], value=sdfsdf, columnName=student_age, columnIndex=4
+2022-03-14 11:44:07,671 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started SpringbatchunivocityApplication in 3.862 seconds (JVM running for 5.116)
